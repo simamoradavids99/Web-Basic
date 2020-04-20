@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+}
+
+header{
+    display: flex;
+    width: 90%;
+    height: 12vh;
+    align-items: center;
+    margin: auto ;
+}
+
+main {
+    overflow: auto;
+}
+
+.logo{
+    color: rgb(27, 179, 206);    
+}
+
+.logo-container,
+.nav-links {
+   display: flex;
+}
+
+.logo-container{
+    flex:1;
+}
+
+.logo-container a {
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    flex:2;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav-link {
+    color:black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: rgb(10, 163, 235);
+}
+
+.jumbotron {
+    background-color: rgb(27, 179, 206);
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.background img {
+    height: 40vh;
+}
+
+.background {
+    flex: 1;
+    margin-left: 25%;
+}
+
+.intro-text {
+    flex: 3;
+    color: white;
+    font-size: 40px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-family: 'Raleway',sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+.content {
+float: left;
+width: 75%;
+padding: 10px;
+
+}
+
+#artikel-kesehatan {
+    font-size: 35px;
+    color: rgb(27, 179, 206);
+}
+
+#dokter {
+    font-size: 35px;
+    color: rgb(27, 179, 206);
+}
+
+#obat {
+    font-size: 35px;
+    color: rgb(27, 179, 206);
+}
+
+.covid {
+    margin-bottom:35px;
+}
+
+.covid > img {
+    width : 100%;
+    max-height:400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hand-sanitizer > img {
+    width : 100%;
+    max-height:400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    justify-content: center;
+    padding: 10px;
+}
+
+.my-identity {
+margin-top : 30px;
+}
+
+.identity {
+    height: 70vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.update-covid h3 {
+    text-align: center;
+    color: rgb(27, 179, 206);
+}
+
+.update-covid > p {
+    text-align: center;
+}
+
+.update-covid {
+    text-align: center;
+}
+
+.my-identity h3 {
+    text-align: center;
+    color: rgb(27, 179, 206);
+}
+
+.change-color { /*kelas ini digunakan untuk menguji manipulasi DOM dengan javascript*/
+    color: salmon;
+}
+.selengkapnya {
+    color: white;
+}
+th {
+    text-align: left;
+    padding-left: 10px;
+}
+
+td {
+    text-align:left;
+    font-weight: 600;
+    padding-left: 35px;
+}
+
+
+button {
+    background-color:rgb(10, 101, 143);
+    height: 40px;
+    margin-left:80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(10, 101, 143);
+    text-align: center;
+    border-radius: 0.6em;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+article {
+    margin-bottom: 10vh;
+}
+
+.btn {
+    text-decoration:none;
+    color: black;
+    letter-spacing: 5px;
+}
+
+footer {
+    display: block;
+    height: 35vh;
+    width: 100%;
+    background-color: rgb(10, 163, 235);
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin-top: 2rem;
+}
+
+.btn-footer{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.footer{
+    height:3vh;
+    width: 100%;
+    background-color: rgb(10, 101, 143);
+    margin-top: -10px;
+}
+
+.footer-text {
+    margin-top: 4rem;
+    font-size: 18px;
+}
+
+#img-1 {
+    width: 25vh;
+    margin: 15px;
+}
+
+
+#sub-title {
+    float: left; 
+    margin:40px 0px 40px 0px;
+    color:black;
+
+}
+
+.flex-container {
+    display:flex;
+    justify-content: center;
+    height: 200px;
+    width:100%;
+    margin : 30px 0px;
+}
+
+.flex-container > div {
+    margin : 30px;
+    font-size: 25px;
+    background-color: white;
+    width: 50vh;
+    text-align:justify;
+    font-family:'Poppins',sans-serif;
+    display: flex;
+}
+
+.flex-container > div:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.dokter-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+  .dokter-flex-container > section {
+    width: 90%;
+    height: 34vh;
+    text-align:left;
+    border:2px;
+    border-radius:0.6em;
+    border-color:grey;
+    border-style: solid;
+    margin:10px auto;
+}
+
+.gambar-dokter {
+    height: 33vh;
+    margin: 0 10px 0 0px;
+    background-color: rgba(211, 222, 228, 0.596);
+    border-top-left-radius: 0.6em;
+    border-bottom-left-radius: 0.6em;
+}
+
+.keterangan-dokter {
+    margin: 40px auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nama-dokter {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.spesialis {
+    color: grey;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+#icon {
+    margin-right: 8px;
+}
+
+.rumah-sakit {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button-hubungi {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    margin-left: 110vh;
+    display: block;
+    width: 80px;
+}
+
+.search-bar {
+    width:80%;
+    margin:20px 100px;
+    height: 30px;
+    border-style: solid;
+    border-color: rgba(32, 29, 29);
+    font-family: 'Raleway',sans-serif;
+}
+
+#sembuh {
+    color:rgba(20, 165, 44)
+}
+
+#meninggal {
+    color : rgb(199, 13, 13);
+}
+
+.obat-flex-container {
+    display:flex;
+
+}
+
+.obat-flex-container > div {
+    margin : 30px;
+    font-size: 25px;
+    border:2px;
+    border-radius:0.6em;
+    border-color:grey;
+    border-style: solid;
+    width: 350px;
+    text-align:justify;
+    font-family:'Raleway',sans-serif;
+}
+
+#gambar-obat {
+    width: 80%;
+    height: 40%;
+    margin:20px;
+    float:left;
+    overflow: auto;
+}
+.keterangan-obat {
+    margin: 10px;
+    height: 50%;
+}
+
+.beli-button {
+    width : 30%;
+    margin-left: 60%;
+    background-color: rgb(10, 101, 143);
+}
+
+.Lemongrass {
+    width : 30%;
+    margin-left: 60%;
+    background-color: rgb(10, 101, 143);
+    margin-top: 20%;
+}
+
+.harga-obat {
+    color: rgb(10, 101, 143);
+    font-size: 22px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1024px) {
+
+    .nav-links {
+        font-size: 10px;
+    }
+    .jumbotron{
+        flex-direction: column;
+    }
+    .intro-text {
+        text-align: center;
+        font-size: 35px;
+    }
+    .background img {
+        height: 30vh;
+        padding-right: 40%;
+        padding-top: 5%; 
+        object-fit: cover;
+        object-position: center;   
+    }
+
+    .content {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    aside {
+        padding:0;
+        width: 100%;
+    }
+
+    .my-identity {
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    th {
+        padding-right:20px;
+    }
+    td {
+        padding: 0;
+    }
+
+    .flex-container>div {
+        margin:5px;
+        width:150px;
+        border-radius: 0;
+        border-style: solid;
+        border-width: 10px;
+        border: black;
+        flex-direction: column;
+    }
+
+    #img-1{
+        width: 120px;
+        height: 100px;
+        margin-bottom: -20px;
+    }
+
+    #sub-title {
+        font-size: 18px;
+        margin:  40px 40px 40px 45px ;
+    }
+    .card > table {
+        margin: 0 20% ;
+        width:max-content;
+    }
+
+    .card > button {
+        margin-right: 50%;
+    }
+
+    #sembuh {
+        color: rgb(63, 184, 8);
+    }
+
+    #meninggal {
+        color: rgb(199, 13, 13)
+    }
+
+    .keterangan-dokter{
+        font-size: 12px;
+    }
+    .nama-dokter{
+        font-size: 15px;
+    }
+    .rumah-sakit{
+        font-size: 15px;
+    }
+    .button-hubungi{
+       margin-left: 40vh;
+       padding-bottom: 20px;
+       height: 20px;
+       text-align: center;
+       justify-content: center;
+       margin-bottom: 10px;
+    }
+
+    .search-bar{
+        margin: 20px 50px;
+    }
+
+    .search-button{
+        margin-right: 30px;
+    }
+
+    .obat-flex-container > div {
+        margin:0;
+        font-size: 18px;
+        border-radius: 0;
+        border-right: none;
+        border-bottom: none;
+        border-top: none;
+    }
+
+
+
+}
+
