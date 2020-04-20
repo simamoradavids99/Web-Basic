@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="assets/style/style.css">
+    <title>Go Health</title>
+</head>
+
+<body>
+    <header>
+            <div class="logo-container">
+                 <h2><a href =#>Go<span class="logo">Health</span></a></h2>
+             </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href ="#artikel-kesehatan">Artikel Kesehatan</a></li>
+                <li><a class="nav-link" href ="#dokter">Dokter</a></li>
+                <li><a class="nav-link" href ="#obat">Obat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <div class="background">
+                <img src = "assets/images/Dokter Background.png" alt = "background"> 
+            </div>
+
+            <div class="intro-text">
+            <p>Jaga Kesehatan</br> Penuhi Kecukupan Gizi Harian</p>
+            </div>
+        </div>
+
+        <div class = "flex-container">
+            <div class="card"><img src ="assets/images/article.svg" alt = "article" id = "img-1" ><a href =#artikel-kesehatan><p id ="sub-title">Artikel</p></a></div>
+            <div class ="card"><img src ="assets/images/doctor.svg" alt = "doctor" id = "img-1"><a href =#dokter><p id ="sub-title">Dokter</p></a></div>
+            <div class ="card"><img src ="assets/images/medicine.svg" alt = "obat" id = "img-1"><a href =#obat><p id ="sub-title">Obat</p></a></div>
+        </div>
+    
+        <div class="content">
+
+            <article class="card">
+                <h2 id = "artikel-kesehatan">Artikel Kesehatan</h2>
+                    <section class="covid" id ="corona">
+                        <h3>Virus Corona Menyerang, Tingkatkan Kekebalan Tubuh Dengan Konsumsi Vitamin C dan E</h3>
+                         <img src = "assets/images/vitamin C dan E.jpg" alt ="vitamin C dan E" id="position">
+                            <p>Dalam upaya meningkatkan kekebalan tubuh di tengah pandemi Covid-19 ini,
+                            mengonsumsi vitamin C dan E menjadi salah satu cara yang kerap dianjurkan. Tak heran, jika banyak orang berlomba-lomba memborong suplemen vitamin tersebut. Padahal bukan hanya dari suplemen,
+                             Anda bisa mendapatkan vitamin C dan E dari makanan yang bergizi,seperti Alpukat, Pepaya dan Jeruk.</p>
+                            </section>
+
+                <section class="hand-sanitizer">
+                    <h3>Apakah Hand Sanitizer Buatan Sendiri Aman untuk Kulit?</h3>
+                        <img src = "assets/images/hand sanitizer.jpg" alt = "hand sanitizer" >
+                            <p>
+                        Melalui selebaran resmi, badan kesehatan dunia, World Health Organization (WHO) memberikan panduan untuk menciptakan hand sanitizer, beserta bahan-bahan yang diperlukan.
+                        Di antara bahan-bahan itu, terdapat etanol, isopropil alkohol, hidrogen peroksida, gliserin, hingga air steril. WHO juga memberikan takaran yang tepat untuk setiap bahan-bahan tersebut.
+                        WHO pun merekomendasikan dua resep pembuatan hand sanitizer, baik dengan bahan etanol ataupun isopropil alkohol.
+                            </p>
+                </section>
+            </article>
+
+            <article class="card">
+                <h2 id ="dokter">Dokter</h2>
+                    <div class="dokter-flex-container">
+                        <section class="data-dokter">
+                            <div >
+                                <img src="assets/images/female-doctor.png" class="gambar-dokter" align="left">
+                            </div>
+                            <div class="keterangan-dokter">
+                                <p class="nama-dokter">drg. Tasya Pasaribu, SP.Kga</p>
+                                <p class="spesialis"><i class='fas fa-stethoscope' id ="icon"></i>Spesialis Kedokteran Gigi Anak</p>
+                                <p class="rumah-sakit"><i class="fas fa-map-marker-alt" id ="icon"></i>Rumah Sakit Permata Indah Jakarta Selatan</p>
+                                <button class="button-hubungi"><a href =#dokter>Hubungi</a></button>
+                            </div>   
+                        </section>
+
+                        <section class="data-dokter">
+                            <div>
+                                <img src="assets/images/male-doctor.png" class="gambar-dokter" align="left">
+                            </div>
+                            <div class="keterangan-dokter">
+                                <p class="nama-dokter">dr. Andi Irwanto, SP.G</p>
+                                <p class="spesialis"><i class='fas fa-stethoscope' id ="icon"></i>Spesialis Gizi</p>
+                                <p class="rumah-sakit"><i class="fas fa-map-marker-alt" id ="icon"></i>Rumah Sakit Universitas Sumatera Utara</p>
+                                <button class="button-hubungi"><a href =#dokter>Hubungi</a></button>
+                            </div>
+                        </section>
+
+                        <section class="data-dokter">
+                            <div>
+                                <img src="assets/images/female-doctor.png" class="gambar-dokter" id="doctor-identity" align="left">
+                            </div>
+                            <div class="keterangan-dokter">
+                                <p class="nama-dokter">dr. Niken Miranda, SP.M</p>
+                                <p class="spesialis"><i class='fas fa-stethoscope' id ="icon"></i>Spesialis Mata</p>
+                                <p class="rumah-sakit"><i class="fas fa-map-marker-alt" id ="icon"></i>Rumah Sakit Nusa Bersatu Bintaro</p>
+                                <button class="button-hubungi"><a href =#dokter>Hubungi</a></button>
+                            </div>
+                        </section>
+                        
+                        <form>
+                            <input type="text" placeholder="Cari Dokter" class="search-bar" name="search">
+                        </form>    
+            </article>
+
+            <article class="card">
+                <section>
+                    <h2 id = "obat">Obat</h2>
+                        <div class="obat-flex-container">
+                            <div>
+                                <img src = "assets/images/foxamine-suplemen makanan.png" alt = "foxamine" id="gambar-obat">
+                            <div class="keterangan-obat">
+                                <p>FOXAMINE Suplemen Makan</p>
+                                <p class="harga-obat">Rp.27.500</p>
+                                <button class="beli-button"><a href ="#obat">Beli</a></button>
+                            </div>
+                            </div>
+                            <div>
+                                <img src = "assets/images/paracetamol.png" alt = "paracetamol" id="gambar-obat">
+                            <div class="keterangan-obat">
+                                <p>Paracetamol 500 mg</p>
+                                <p class="harga-obat">Rp.18.300</p>
+                                <button class="beli-button"><a href ="#obat">Beli</a></button>
+                            </div>
+                            </div>
+                            <div>
+                                <img src = "assets/images/minyak esensial.png" alt = "Varash Minyak Esensial" id="gambar-obat">
+                            <div class="keterangan-obat">
+                                 <p>Lemongrass 10 ml</p>
+                                 <p class="harga-obat">Rp.65.000</p>
+                                 <button class="Lemongrass"><a href ="#obat">Beli</a></button>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="search-container">
+                            <form>
+                                <input type="text" placeholder="Cari Obat" class="search-bar" name="search">
+                            </form>
+                        </div>
+                </section>
+            </article>
+        </div>
+
+            <aside>
+                <section class = "update-covid">
+                <div id="covid-19" class="card">
+                    <h3>COVID-19</h3>
+                    <p class="update-covid">Update COVID-19 di Indonesia</p>
+                    <img src = "assets/images/virus.png" alt = "virus">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Jumlah Kasus</th>
+                                <td>2956</td>
+                            </tr>
+                            <tr>
+                                <th>Sembuh</th>
+                                <td id="sembuh">222</td>
+                            </tr>
+                            <tr>
+                                <th>Meninggal</th>
+                                <td id="meninggal">240</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="selengkapnya"><a href = "#covid-19">Selengkapnya</a></button>
+                                </td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                </section >
+
+                <section class = "my-identity">
+                <div class="card">
+                    <h3 class="identitas">Identitas</h3>
+                    
+                    <img src = "assets/images/david.jpg" alt = "david-simamora" class="identity">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nama</th>
+                                <td>David Simamora</td>
+                            </tr>
+                            <tr>
+                                <th>Alamat</th>
+                                <td>Tarutung, Sumatera Utara</td>
+                            </tr>
+                            <tr>
+                                <th>Status</th>
+                                <td>Mahasiswa</td>
+                            </tr>
+                            <tr>
+                                <th>Follow</th>
+                                <td>
+                                    <div>
+                                        <a class="btn" href="https://web.facebook.com/david.simamora1" target="blank">
+                                          <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a class="btn" href="https://twitter.com/davesimamora1" target="blank">
+                                          <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a class="btn" href="https://www.instagram.com/davesimamora/" target="blank">
+                                          <i class="fab fa-instagram"></i>
+                                        </a>
+                                        <a class="btn" href="https://www.linkedin.com/in/david-simamora-2b0a12197/" target="blank">
+                                          <i class="fab fa-linkedin"></i>
+                                        </a>
+                                        <a class="btn" href="https://github.com/simamoradavids99" target="blank">
+                                          <i class="fab fa-github"></i>
+                                        </a>
+                                        <a class="btn" href="https://medium.com/@davidsimamora007" target="blank">
+                                          <i class="fab fa-medium"></i>
+                                        </a>
+                                      </div>
+                                    </td>
+                                 </tr>
+                           
+                                </thead>
+                         </table>
+                         </div>
+                     </section>
+                <section>
+
+                </section>
+            </aside>
+    </main>
+    <footer>
+        <div class="footer"></div>
+            <p class="footer-text">GoHealth website as a submission of Dicoding's "Belajar Dasar Pemrograman Web" class</br>
+            David Simamora&#169;2020</br>
+            <div>
+                <a class="btn-footer" href="https://web.facebook.com/david.simamora1" target="blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn-footer" href="https://twitter.com/davesimamora1" target="blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a class="btn-footer" href="https://www.instagram.com/davesimamora/" target="blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="btn-footer" href="https://www.linkedin.com/in/david-simamora-2b0a12197/" target="blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="btn-footer" href="https://github.com/simamoradavids99" target="blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a class="btn-footer" href="https://medium.com/@davidsimamora007" target="blank">
+                  <i class="fab fa-medium"></i>
+                </a>
+              </div>
+            </p>
+    </footer>
+    <script src = "assets/main.js"></script>
+</body>
+</html>
+        
+    
